@@ -1,0 +1,62 @@
+html{
+font-family:'Arial' sans-serif;
+text-align:'justify';
+background-color:#00BFFF;
+}
+
+h1{
+margin-left:270px;
+}
+h2{
+text-decoration: underline;
+}
+#logohtml{
+top:200px;
+left:300px;
+}
+
+#gauche{
+float:left;
+width: :300px;
+}
+#photo{
+position: absolute;
+top:20px;
+width:250px;
+left:5px;
+}
+#etatCiv{
+top:300px;
+width: 20%;
+height: 200px;
+background-color:#D3D3D3;
+}
+#Hob{
+background-color:#D3D3D3;
+width: 20%;
+}
+#Proj{
+background-color:#D3D3D3;
+width:20%;
+}
+
+#pasgauche{
+margin-left:300px;
+}
+#citation{
+left:300px;
+top:2px;
+
+}
+
+#format{
+top:350px;
+}
+#experience{
+top:600px;
+}
+
+#technos{
+top: 900px;
+
+}
