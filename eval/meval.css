@@ -1,40 +1,86 @@
-html{
-font-family:'Arial' sans-serif;
-text-align:'justify';
-background-color:#00BFFF;
+html {
+    font-family: 'Arial' sans-serif;
+    text-align: 'justify';
+    background-color: #00BFFF;
 }
 
-h1{
-margin-left:270px;
+h1 {
+    text-align: center;
 }
-h2{
-text-decoration: underline;
+
+h2 {
+    text-decoration: underline;
 }
-#logohtml{
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    /* align-items: flex-start;
+    flex-direction: column; */
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+
+/* #logohtml{
 top:200px;
 left:300px;
+} */
+
+
+/* #gauche{
+float:left;
+width:300px;
+} */
+
+#photo {
+    width: 300px;
 }
 
-#gauche{
-float:left;
-width: :300px;
+#menu {
+    -webkit-flex: 1;
+    flex: 1;
 }
-#photo{
-position: absolute;
-top:20px;
-width:250px;
-left:5px;
+
+#menu>div {
+    background-color: #D3D3D3;
+    margin: 1em;
 }
+
+#developpeur {
+    -webkit-flex: 3;
+    flex: 3;
+}
+
+#mail {
+    border-radius: 5px;
+    text-align: center;
+    padding: 1em;
+    border: solid black 1px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 
 #etatCiv{
 top:300px;
 width: 20%;
 height: 200px;
 background-color:#D3D3D3;
 }
+
 #Hob{
 background-color:#D3D3D3;
 width: 20%;
 }
+
 #Proj{
 background-color:#D3D3D3;
 width:20%;
@@ -43,20 +89,21 @@ width:20%;
 #pasgauche{
 margin-left:300px;
 }
+
 #citation{
 left:300px;
 top:2px;
-
 }
 
 #format{
 top:350px;
 }
+
 #experience{
 top:600px;
 }
 
 #technos{
 top: 900px;
-
 }
+ */
